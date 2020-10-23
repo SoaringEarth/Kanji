@@ -17,6 +17,7 @@ class ModeSelectionRouter: ModeSelectionRouterProtocol {
     weak var vc: ModeSelectionViewController?
 
     func routeToFlashcard() {
-
+        let flashcardVC = FlashcardLevelViewController.asInitialVC(of: .flashcards).orDefault
+        vc?.navigationController?.pushViewController(flashcardVC, animated: true)
     }
 }

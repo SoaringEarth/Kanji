@@ -8,9 +8,17 @@
 
 import UIKit
 
-protocol FlashcardLevelRouterProtocol {}
+protocol FlashcardLevelRouterProtocol {
+    func routeToKanjiList(forLevel level: Int)
+}
 
 class FlashcardLevelRouter: FlashcardLevelRouterProtocol {
 
     weak var vc: FlashcardLevelViewController?
+
+    func routeToKanjiList(forLevel level: Int) {
+        let kanjiListVC = KanjiListViewController.from(storyboard: .flashcards).orDefault
+        vc?.navigationController?.pushViewController(kanjiListVC, animated: true)
+
+    }
 }

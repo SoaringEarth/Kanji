@@ -27,6 +27,11 @@ class ModeSelectionViewController: UIViewController, ModeSelectionViewProtocol {
         ModeSelectionComposer.compose(view: self)
     }
 
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        ModeSelectionComposer.compose(view: self)
+    }
+
     @IBAction func flashcardsOptionSelected(_ sender: Any) {
         router?.routeToFlashcard()
     }

@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0387CAF92542124D00D141BC /* Flashcards.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0387CAF82542124D00D141BC /* Flashcards.storyboard */; };
+		0387CB032542133800D141BC /* UIStoryboard+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0387CB022542133800D141BC /* UIStoryboard+Extensions.swift */; };
+		0387CB08254213C100D141BC /* UIViewController+Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0387CB07254213C100D141BC /* UIViewController+Storyboard.swift */; };
+		0387CB18254216F200D141BC /* KanjiListComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0387CB11254216F200D141BC /* KanjiListComposer.swift */; };
+		0387CB19254216F200D141BC /* KanjiListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0387CB12254216F200D141BC /* KanjiListPresenter.swift */; };
+		0387CB1A254216F200D141BC /* KanjiListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0387CB13254216F200D141BC /* KanjiListWorker.swift */; };
+		0387CB1B254216F200D141BC /* KanjiListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0387CB14254216F200D141BC /* KanjiListRouter.swift */; };
+		0387CB1C254216F200D141BC /* KanjiListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0387CB15254216F200D141BC /* KanjiListViewController.swift */; };
+		0387CB1D254216F200D141BC /* KanjiListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0387CB16254216F200D141BC /* KanjiListInteractor.swift */; };
+		0387CB1E254216F200D141BC /* KanjiListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0387CB17254216F200D141BC /* KanjiListViewModel.swift */; };
+		0387CB24254219D800D141BC /* KanjiRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0387CB23254219D800D141BC /* KanjiRepository.swift */; };
 		03BF8E0A2542043F00596B42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BF8E092542043F00596B42 /* AppDelegate.swift */; };
 		03BF8E0C2542043F00596B42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BF8E0B2542043F00596B42 /* SceneDelegate.swift */; };
 		03BF8E112542043F00596B42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03BF8E0F2542043F00596B42 /* Main.storyboard */; };
@@ -47,6 +58,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0387CAF82542124D00D141BC /* Flashcards.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Flashcards.storyboard; sourceTree = "<group>"; };
+		0387CB022542133800D141BC /* UIStoryboard+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extensions.swift"; sourceTree = "<group>"; };
+		0387CB07254213C100D141BC /* UIViewController+Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Storyboard.swift"; sourceTree = "<group>"; };
+		0387CB11254216F200D141BC /* KanjiListComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiListComposer.swift; sourceTree = "<group>"; };
+		0387CB12254216F200D141BC /* KanjiListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiListPresenter.swift; sourceTree = "<group>"; };
+		0387CB13254216F200D141BC /* KanjiListWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiListWorker.swift; sourceTree = "<group>"; };
+		0387CB14254216F200D141BC /* KanjiListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiListRouter.swift; sourceTree = "<group>"; };
+		0387CB15254216F200D141BC /* KanjiListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiListViewController.swift; sourceTree = "<group>"; };
+		0387CB16254216F200D141BC /* KanjiListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiListInteractor.swift; sourceTree = "<group>"; };
+		0387CB17254216F200D141BC /* KanjiListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiListViewModel.swift; sourceTree = "<group>"; };
+		0387CB23254219D800D141BC /* KanjiRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiRepository.swift; sourceTree = "<group>"; };
 		03BF8E062542043F00596B42 /* Kanji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kanji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03BF8E092542043F00596B42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03BF8E0B2542043F00596B42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +122,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0387CB00254212DA00D141BC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0387CB012542132800D141BC /* Extensions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0387CB012542132800D141BC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0387CB022542133800D141BC /* UIStoryboard+Extensions.swift */,
+				0387CB07254213C100D141BC /* UIViewController+Storyboard.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0387CB102542157B00D141BC /* kanjiList */ = {
+			isa = PBXGroup;
+			children = (
+				0387CB11254216F200D141BC /* KanjiListComposer.swift */,
+				0387CB17254216F200D141BC /* KanjiListViewModel.swift */,
+				0387CB15254216F200D141BC /* KanjiListViewController.swift */,
+				0387CB16254216F200D141BC /* KanjiListInteractor.swift */,
+				0387CB12254216F200D141BC /* KanjiListPresenter.swift */,
+				0387CB13254216F200D141BC /* KanjiListWorker.swift */,
+				0387CB14254216F200D141BC /* KanjiListRouter.swift */,
+			);
+			path = kanjiList;
+			sourceTree = "<group>";
+		};
+		0387CB222542175400D141BC /* KanjiGrade */ = {
+			isa = PBXGroup;
+			children = (
+				0387CB23254219D800D141BC /* KanjiRepository.swift */,
+			);
+			path = KanjiGrade;
+			sourceTree = "<group>";
+		};
 		03BF8DFD2542043F00596B42 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +186,7 @@
 			children = (
 				03BF8E40254208BC00596B42 /* Home */,
 				03BF8E6425420C3B00596B42 /* GameModes */,
+				0387CB00254212DA00D141BC /* Helpers */,
 				03BF8E872542100900596B42 /* Networking */,
 				03BF8E0F2542043F00596B42 /* Main.storyboard */,
 				03BF8E58254209DD00596B42 /* Resources */,
@@ -195,7 +257,9 @@
 		03BF8E6525420C4500596B42 /* Flashcards */ = {
 			isa = PBXGroup;
 			children = (
+				0387CAF82542124D00D141BC /* Flashcards.storyboard */,
 				03BF8E7A25420C6E00596B42 /* LevelSelection */,
+				0387CB102542157B00D141BC /* kanjiList */,
 			);
 			path = Flashcards;
 			sourceTree = "<group>";
@@ -216,6 +280,7 @@
 		03BF8E872542100900596B42 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				0387CB222542175400D141BC /* KanjiGrade */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -326,6 +391,7 @@
 				03BF8E162542044000596B42 /* LaunchScreen.storyboard in Resources */,
 				03BF8E132542044000596B42 /* Assets.xcassets in Resources */,
 				03BF8E112542043F00596B42 /* Main.storyboard in Resources */,
+				0387CAF92542124D00D141BC /* Flashcards.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,9 +416,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0387CB1E254216F200D141BC /* KanjiListViewModel.swift in Sources */,
 				03BF8E0A2542043F00596B42 /* AppDelegate.swift in Sources */,
+				0387CB08254213C100D141BC /* UIViewController+Storyboard.swift in Sources */,
 				03BF8E482542092200596B42 /* ModeSelectionComposer.swift in Sources */,
 				03BF8E7225420C6900596B42 /* FlashcardLevelInteractor.swift in Sources */,
+				0387CB1C254216F200D141BC /* KanjiListViewController.swift in Sources */,
 				03BF8E7025420C6900596B42 /* FlashcardLevelRouter.swift in Sources */,
 				03BF8E7325420C6900596B42 /* FlashcardLevelViewModel.swift in Sources */,
 				03BF8E4E2542092200596B42 /* ModeSelectionViewModel.swift in Sources */,
@@ -360,7 +429,14 @@
 				03BF8E7125420C6900596B42 /* FlashcardLevelViewController.swift in Sources */,
 				03BF8E6E25420C6900596B42 /* FlashcardLevelPresenter.swift in Sources */,
 				03BF8E4C2542092200596B42 /* ModeSelectionViewController.swift in Sources */,
+				0387CB19254216F200D141BC /* KanjiListPresenter.swift in Sources */,
+				0387CB24254219D800D141BC /* KanjiRepository.swift in Sources */,
+				0387CB032542133800D141BC /* UIStoryboard+Extensions.swift in Sources */,
 				03BF8E4B2542092200596B42 /* ModeSelectionRouter.swift in Sources */,
+				0387CB1B254216F200D141BC /* KanjiListRouter.swift in Sources */,
+				0387CB18254216F200D141BC /* KanjiListComposer.swift in Sources */,
+				0387CB1D254216F200D141BC /* KanjiListInteractor.swift in Sources */,
+				0387CB1A254216F200D141BC /* KanjiListWorker.swift in Sources */,
 				03BF8E5A254209ED00596B42 /* UIColor+Scheme.swift in Sources */,
 				03BF8E492542092200596B42 /* ModeSelectionPresenter.swift in Sources */,
 				03BF8E4D2542092200596B42 /* ModeSelectionInteractor.swift in Sources */,
