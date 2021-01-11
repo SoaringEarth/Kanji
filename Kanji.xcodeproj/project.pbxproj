@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		034B6306259B8324001525DC /* japanese_kanji.json in Resources */ = {isa = PBXBuildFile; fileRef = 034B6305259B8324001525DC /* japanese_kanji.json */; };
+		034B630C259B91A2001525DC /* SentenceParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034B630B259B91A2001525DC /* SentenceParser.swift */; };
+		034B6314259B92C5001525DC /* SentenceParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034B6313259B92C5001525DC /* SentenceParserTests.swift */; };
 		0387CAF92542124D00D141BC /* Flashcards.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0387CAF82542124D00D141BC /* Flashcards.storyboard */; };
 		0387CB032542133800D141BC /* UIStoryboard+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0387CB022542133800D141BC /* UIStoryboard+Extensions.swift */; };
 		0387CB08254213C100D141BC /* UIViewController+Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0387CB07254213C100D141BC /* UIViewController+Storyboard.swift */; };
@@ -58,6 +61,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		034B6305259B8324001525DC /* japanese_kanji.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = japanese_kanji.json; sourceTree = "<group>"; };
+		034B630B259B91A2001525DC /* SentenceParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentenceParser.swift; sourceTree = "<group>"; };
+		034B6313259B92C5001525DC /* SentenceParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentenceParserTests.swift; sourceTree = "<group>"; };
 		0387CAF82542124D00D141BC /* Flashcards.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Flashcards.storyboard; sourceTree = "<group>"; };
 		0387CB022542133800D141BC /* UIStoryboard+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extensions.swift"; sourceTree = "<group>"; };
 		0387CB07254213C100D141BC /* UIViewController+Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Storyboard.swift"; sourceTree = "<group>"; };
@@ -122,6 +128,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		034B630A259B918B001525DC /* SentencePatterns */ = {
+			isa = PBXGroup;
+			children = (
+				034B630B259B91A2001525DC /* SentenceParser.swift */,
+			);
+			path = SentencePatterns;
+			sourceTree = "<group>";
+		};
 		0387CB00254212DA00D141BC /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,6 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				03BF8E202542044000596B42 /* KanjiTests.swift */,
+				034B6313259B92C5001525DC /* SentenceParserTests.swift */,
 				03BF8E222542044000596B42 /* Info.plist */,
 			);
 			path = KanjiTests;
@@ -240,6 +255,7 @@
 		03BF8E58254209DD00596B42 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				034B6305259B8324001525DC /* japanese_kanji.json */,
 				03BF8E59254209ED00596B42 /* UIColor+Scheme.swift */,
 				03BF8E122542044000596B42 /* Assets.xcassets */,
 			);
@@ -249,6 +265,7 @@
 		03BF8E6425420C3B00596B42 /* GameModes */ = {
 			isa = PBXGroup;
 			children = (
+				034B630A259B918B001525DC /* SentencePatterns */,
 				03BF8E6525420C4500596B42 /* Flashcards */,
 			);
 			path = GameModes;
@@ -388,6 +405,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				034B6306259B8324001525DC /* japanese_kanji.json in Resources */,
 				03BF8E162542044000596B42 /* LaunchScreen.storyboard in Resources */,
 				03BF8E132542044000596B42 /* Assets.xcassets in Resources */,
 				03BF8E112542043F00596B42 /* Main.storyboard in Resources */,
@@ -431,6 +449,7 @@
 				03BF8E4C2542092200596B42 /* ModeSelectionViewController.swift in Sources */,
 				0387CB19254216F200D141BC /* KanjiListPresenter.swift in Sources */,
 				0387CB24254219D800D141BC /* KanjiRepository.swift in Sources */,
+				034B630C259B91A2001525DC /* SentenceParser.swift in Sources */,
 				0387CB032542133800D141BC /* UIStoryboard+Extensions.swift in Sources */,
 				03BF8E4B2542092200596B42 /* ModeSelectionRouter.swift in Sources */,
 				0387CB1B254216F200D141BC /* KanjiListRouter.swift in Sources */,
@@ -449,6 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03BF8E212542044000596B42 /* KanjiTests.swift in Sources */,
+				034B6314259B92C5001525DC /* SentenceParserTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
