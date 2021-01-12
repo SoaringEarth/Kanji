@@ -18,6 +18,14 @@
 		0387CB1D254216F200D141BC /* KanjiListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0387CB16254216F200D141BC /* KanjiListInteractor.swift */; };
 		0387CB1E254216F200D141BC /* KanjiListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0387CB17254216F200D141BC /* KanjiListViewModel.swift */; };
 		0387CB24254219D800D141BC /* KanjiRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0387CB23254219D800D141BC /* KanjiRepository.swift */; };
+		03A80F7425AD93FF00BF5508 /* KanaQuizGameFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A80F6C25AD93FF00BF5508 /* KanaQuizGameFactory.swift */; };
+		03A80F7525AD93FF00BF5508 /* KanaQuizGamePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A80F6D25AD93FF00BF5508 /* KanaQuizGamePresenter.swift */; };
+		03A80F7625AD93FF00BF5508 /* KanaQuizGameWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A80F6E25AD93FF00BF5508 /* KanaQuizGameWorker.swift */; };
+		03A80F7725AD93FF00BF5508 /* KanaQuizGameRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A80F6F25AD93FF00BF5508 /* KanaQuizGameRouter.swift */; };
+		03A80F7825AD93FF00BF5508 /* KanaQuizGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A80F7025AD93FF00BF5508 /* KanaQuizGameViewController.swift */; };
+		03A80F7925AD93FF00BF5508 /* KanaQuizGameInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A80F7125AD93FF00BF5508 /* KanaQuizGameInteractor.swift */; };
+		03A80F7A25AD93FF00BF5508 /* KanaQuizGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A80F7225AD93FF00BF5508 /* KanaQuizGameViewModel.swift */; };
+		03A80F7B25AD93FF00BF5508 /* KanaQuizGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A80F7325AD93FF00BF5508 /* KanaQuizGameViewController.xib */; };
 		03BF8E0A2542043F00596B42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BF8E092542043F00596B42 /* AppDelegate.swift */; };
 		03BF8E0C2542043F00596B42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BF8E0B2542043F00596B42 /* SceneDelegate.swift */; };
 		03BF8E112542043F00596B42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03BF8E0F2542043F00596B42 /* Main.storyboard */; };
@@ -38,6 +46,7 @@
 		03BF8E7125420C6900596B42 /* FlashcardLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BF8E6A25420C6900596B42 /* FlashcardLevelViewController.swift */; };
 		03BF8E7225420C6900596B42 /* FlashcardLevelInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BF8E6B25420C6900596B42 /* FlashcardLevelInteractor.swift */; };
 		03BF8E7325420C6900596B42 /* FlashcardLevelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BF8E6C25420C6900596B42 /* FlashcardLevelViewModel.swift */; };
+		03EA9C4725ACEB0300961995 /* KanaDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EA9C4625ACEB0300961995 /* KanaDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +78,14 @@
 		0387CB16254216F200D141BC /* KanjiListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiListInteractor.swift; sourceTree = "<group>"; };
 		0387CB17254216F200D141BC /* KanjiListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiListViewModel.swift; sourceTree = "<group>"; };
 		0387CB23254219D800D141BC /* KanjiRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiRepository.swift; sourceTree = "<group>"; };
+		03A80F6C25AD93FF00BF5508 /* KanaQuizGameFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanaQuizGameFactory.swift; sourceTree = "<group>"; };
+		03A80F6D25AD93FF00BF5508 /* KanaQuizGamePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanaQuizGamePresenter.swift; sourceTree = "<group>"; };
+		03A80F6E25AD93FF00BF5508 /* KanaQuizGameWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanaQuizGameWorker.swift; sourceTree = "<group>"; };
+		03A80F6F25AD93FF00BF5508 /* KanaQuizGameRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanaQuizGameRouter.swift; sourceTree = "<group>"; };
+		03A80F7025AD93FF00BF5508 /* KanaQuizGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanaQuizGameViewController.swift; sourceTree = "<group>"; };
+		03A80F7125AD93FF00BF5508 /* KanaQuizGameInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanaQuizGameInteractor.swift; sourceTree = "<group>"; };
+		03A80F7225AD93FF00BF5508 /* KanaQuizGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanaQuizGameViewModel.swift; sourceTree = "<group>"; };
+		03A80F7325AD93FF00BF5508 /* KanaQuizGameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KanaQuizGameViewController.xib; sourceTree = "<group>"; };
 		03BF8E062542043F00596B42 /* Kanji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kanji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03BF8E092542043F00596B42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03BF8E0B2542043F00596B42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +112,7 @@
 		03BF8E6A25420C6900596B42 /* FlashcardLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardLevelViewController.swift; sourceTree = "<group>"; };
 		03BF8E6B25420C6900596B42 /* FlashcardLevelInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardLevelInteractor.swift; sourceTree = "<group>"; };
 		03BF8E6C25420C6900596B42 /* FlashcardLevelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardLevelViewModel.swift; sourceTree = "<group>"; };
+		03EA9C4625ACEB0300961995 /* KanaDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanaDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -258,6 +276,7 @@
 			isa = PBXGroup;
 			children = (
 				0387CAF82542124D00D141BC /* Flashcards.storyboard */,
+				03EA9C4525ACEAF000961995 /* Hiragana */,
 				03BF8E7A25420C6E00596B42 /* LevelSelection */,
 				0387CB102542157B00D141BC /* kanjiList */,
 			);
@@ -283,6 +302,22 @@
 				0387CB222542175400D141BC /* KanjiGrade */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		03EA9C4525ACEAF000961995 /* Hiragana */ = {
+			isa = PBXGroup;
+			children = (
+				03EA9C4625ACEB0300961995 /* KanaDataSource.swift */,
+				03A80F6C25AD93FF00BF5508 /* KanaQuizGameFactory.swift */,
+				03A80F7225AD93FF00BF5508 /* KanaQuizGameViewModel.swift */,
+				03A80F7025AD93FF00BF5508 /* KanaQuizGameViewController.swift */,
+				03A80F7325AD93FF00BF5508 /* KanaQuizGameViewController.xib */,
+				03A80F7125AD93FF00BF5508 /* KanaQuizGameInteractor.swift */,
+				03A80F6E25AD93FF00BF5508 /* KanaQuizGameWorker.swift */,
+				03A80F6D25AD93FF00BF5508 /* KanaQuizGamePresenter.swift */,
+				03A80F6F25AD93FF00BF5508 /* KanaQuizGameRouter.swift */,
+			);
+			path = Hiragana;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -388,6 +423,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03A80F7B25AD93FF00BF5508 /* KanaQuizGameViewController.xib in Resources */,
 				03BF8E162542044000596B42 /* LaunchScreen.storyboard in Resources */,
 				03BF8E132542044000596B42 /* Assets.xcassets in Resources */,
 				03BF8E112542043F00596B42 /* Main.storyboard in Resources */,
@@ -417,9 +453,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0387CB1E254216F200D141BC /* KanjiListViewModel.swift in Sources */,
+				03A80F7425AD93FF00BF5508 /* KanaQuizGameFactory.swift in Sources */,
 				03BF8E0A2542043F00596B42 /* AppDelegate.swift in Sources */,
 				0387CB08254213C100D141BC /* UIViewController+Storyboard.swift in Sources */,
+				03A80F7625AD93FF00BF5508 /* KanaQuizGameWorker.swift in Sources */,
+				03A80F7525AD93FF00BF5508 /* KanaQuizGamePresenter.swift in Sources */,
 				03BF8E482542092200596B42 /* ModeSelectionComposer.swift in Sources */,
+				03A80F7825AD93FF00BF5508 /* KanaQuizGameViewController.swift in Sources */,
 				03BF8E7225420C6900596B42 /* FlashcardLevelInteractor.swift in Sources */,
 				0387CB1C254216F200D141BC /* KanjiListViewController.swift in Sources */,
 				03BF8E7025420C6900596B42 /* FlashcardLevelRouter.swift in Sources */,
@@ -428,6 +468,7 @@
 				03BF8E6D25420C6900596B42 /* FlashcardLevelComposer.swift in Sources */,
 				03BF8E7125420C6900596B42 /* FlashcardLevelViewController.swift in Sources */,
 				03BF8E6E25420C6900596B42 /* FlashcardLevelPresenter.swift in Sources */,
+				03A80F7925AD93FF00BF5508 /* KanaQuizGameInteractor.swift in Sources */,
 				03BF8E4C2542092200596B42 /* ModeSelectionViewController.swift in Sources */,
 				0387CB19254216F200D141BC /* KanjiListPresenter.swift in Sources */,
 				0387CB24254219D800D141BC /* KanjiRepository.swift in Sources */,
@@ -437,7 +478,10 @@
 				0387CB18254216F200D141BC /* KanjiListComposer.swift in Sources */,
 				0387CB1D254216F200D141BC /* KanjiListInteractor.swift in Sources */,
 				0387CB1A254216F200D141BC /* KanjiListWorker.swift in Sources */,
+				03EA9C4725ACEB0300961995 /* KanaDataSource.swift in Sources */,
+				03A80F7A25AD93FF00BF5508 /* KanaQuizGameViewModel.swift in Sources */,
 				03BF8E5A254209ED00596B42 /* UIColor+Scheme.swift in Sources */,
+				03A80F7725AD93FF00BF5508 /* KanaQuizGameRouter.swift in Sources */,
 				03BF8E492542092200596B42 /* ModeSelectionPresenter.swift in Sources */,
 				03BF8E4D2542092200596B42 /* ModeSelectionInteractor.swift in Sources */,
 				03BF8E0C2542043F00596B42 /* SceneDelegate.swift in Sources */,
